@@ -26,7 +26,7 @@ h2 {
 }
  p {
 	text-align: center;
-	font-family: 'helvetica neue';
+	font-family: 'helvetica neue', Arial,  sans-serif;
 	color:gray;
 	line-height:1em;
 	/*padding:5%;*/
@@ -35,7 +35,7 @@ h2 {
 }
 footer {
 	background-color:#fafafa;
-	font-family: 'helvetica neue';
+	font-family: 'helvetica neue', Arial,  sans-serif;
 	color:gray;
 	line-height:1.3em;
 	padding:5%;
@@ -45,7 +45,7 @@ footer {
 }
  p,
 h2 {
-	font-family: 'helvetica neue';
+	font-family: 'helvetica neue', Arial,  sans-serif;
 	font-size:1.25em;
 	text-align: center;
 	line-height:1.4em;
@@ -67,7 +67,7 @@ body{
 	padding:5% 5% 0 5%;
 	font-size:1.75em;
 	text-align: center;
-	font-family:'helvetica neue';
+	font-family:'helvetica neue', Arial,  sans-serif;
 }
 
 .main-nav{
@@ -80,7 +80,7 @@ text-transform:uppercase;
 background-color: #fff;
 padding:10px;
 font-weight:bold;
-font-family:'helvetica neue';
+font-family:'helvetica neue', Arial,  sans-serif;
 }
 
 #name a,
@@ -202,7 +202,7 @@ footer p {
 		
 		text-align:left;
 		
-		font-family:'helvetica neue';
+		font-family:'helvetica neue', Arial,  sans-serif;
 		padding: 0 0 10px 0;
 		
 
@@ -244,8 +244,6 @@ header {
 	text-align:center;
 	vertical-align:top;
 }
-;
-
 
 footer{
 	clear:both;
@@ -253,11 +251,7 @@ footer{
 footer ul {
 	text-align:center;
 }
-
-	
-	
 }
-
 @media screen and (min-width:1024px) {
 	#name{
 		text-align:left;
@@ -265,7 +259,7 @@ footer ul {
 		float:left;
 		display:inline-block;
 		margin:0 auto;
-		font-size: 28px;
+		font-size:28px;
 	}
 	.main-nav ul {
 		clear:both;
@@ -276,24 +270,10 @@ footer ul {
 	.main-nav li {
 		text-align:right;
 	}
-
-
-	#name a,
-.main-nav {
+	#name a,.main-nav {
 	text-align:right;
 	display:block;
 	color:#000;
 	list-style:none;
 }
 }
-@media screen and (min-width:1200px) {
-#portfolio {
-	max-width:1200px;
-	
-	}
-}
-
-
-
-
-
