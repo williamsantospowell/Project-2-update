@@ -229,21 +229,21 @@ footer p {
 	
 header {
 	padding-left:10px;
-}
-#heading {
+	}
+	#heading {
 	padding-left:20px;
-}
-#portfolio li {
+	}
+	#portfolio li {
     max-width: 33%;
    display:inline-block;
     /*padding-right: 10px;*/
     margin:0;
     vertical-align:top;
-} 
-#portfolio{
+	} 
+	#portfolio{
 	text-align:center;
 	vertical-align:top;
-}
+	}
 
 footer{
 	clear:both;
