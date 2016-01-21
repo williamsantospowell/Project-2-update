@@ -156,10 +156,10 @@ footer h2 {
 
 #bottom
 {
-	display:block;
+	display: block;
 	margin:0;
 	overflow:auto;
-	padding:20px;
+	/*padding:20px;*/
 	border-top-color:black;
 	font-size:15px;
 	color:black;
@@ -176,11 +176,18 @@ footer #right {
 }
 footer #left  {
 	float:left;
-	margin-left:-50px;
+	margin-left:-40px;
 }
 
 footer p {
 	padding: 5%;
+}
+
+.hidden {
+	display:none;
+}
+#information {
+	text-align:center;
 }
 
 /* MEDIA QUERY */
@@ -248,10 +255,42 @@ header {
 footer{
 	clear:both;
 }
-footer ul {
-	text-align:center;
+
+#bottom {
+	display:none;
+}
+.hidden{
+	display: block;
+	margin:0;
+	overflow:auto;
+	/*padding:20px;*/
+	border-top-color:black;
+	font-size:15px;
+	color:black;
+	font-weight:bold;
+    border-top: 2px solid rgba(192,192,192,0.3);
+    clear:none;
+    padding-top:20px;
+    text-align:right;
+
+
+}
+.hidden li {
+	display:inline-block;
+	padding-right:5px;
+
+}
+.footer-nav li  {
+	display:inline-block;
+	font-size: 1em;
+	text-align:right;
+	/*margin:0 auto;*/
+}
+#leftside{
+	float:left;
 }
 }
+
 @media screen and (min-width:1024px) {
 	#name{
 		text-align:left;

@@ -1,14 +1,16 @@
 <!doctype html>
 <html>
 	<head> 
+		<meta charset="utf-8">
 		<title> Cool New Site</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="styles.css">
 		
 	</head>
 		<body>
 			<div class ="banner">	
 			<ul class="main-nav">	
-				<li id="name">WIlliam Powell</li>	
+				<li id="name">William Powell</li>	
 						<li><a href="#">Home </a></li>
 						<li><a href="#">Portfolio</a></li>
 						<li><a href="#">Contact</a></li>
@@ -18,7 +20,7 @@
 				<div id="container">
 					<!-- <div id="heading"> -->
 					<header>
-						<img id="heading"  src ="images/responsive-layout-profile.png" alt ="picture of me">
+						<img id="heading"  src ="Images/responsive-layout-profile.png" alt ="picture of me">
 					<!-- </div> -->
 						<p id="text"> Hi I'm a front end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
 					</header>
@@ -65,7 +67,7 @@
 			<footer class="portfolio">
 				<h2 class="detail"> Contact </h2>
 				<p>if you're interested in chatting or want more information about what i've been working on, i'd love to hear from you! </p>
-				<ul>
+				<ul id= "information">
 					<li> Phone: 
 						<a href="tel:703-232-4356"> 703-232-4356 </a>
 					</li>
@@ -75,10 +77,17 @@
 				</ul>
 				<div id= "bottom">
 					<ul>
-						<li id="left"> William Santos Powell 
-						</li> 
-						<li id ="right"> BACK TO TOP 
-						</li>
+						<li id="left"> William Santos Powell </li> 
+						<li id ="right"> BACK TO TOP </li>
+					</ul>
+				</div>
+				
+				<div class="hidden">
+			<ul class="footer-nav">	
+				<li id ="leftside">William Powell</li>	
+						<li><a href="#">HOME </a></li>
+						<li><a href="#">PORTFOLIO</a></li>
+						<li><a href="#">CONTACT</a></li>
 					</ul>
 				</div>
 			</footer>
